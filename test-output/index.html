@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Workspace_CloudBerryBootcamp\NinjaV5\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods, 6 failed,  12 skipped,  24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05__AddToWishList" class="method navigator-link" hash-for-method="addToWishList">addToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_04_CompletePurchase" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_04_CompletePurchase" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_04_CompletePurchase" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_AddAffiliate" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AddToCart" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05__AddToWishList" class="method navigator-link" hash-for-method="addToWishList">addToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05__AddToWishList" class="method navigator-link" hash-for-method="addToWishList">addToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_04_CompletePurchase" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_04_CompletePurchase" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_04_CompletePurchase" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_04_CompletePurchase" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_04_CompletePurchase" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_04_CompletePurchase" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_AddAffiliate" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_AddAffiliate" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AddToCart" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AddToCart" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05__AddToWishList" class="method navigator-link" hash-for-method="addToWishList">addToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05__AddToWishList" class="method navigator-link" hash-for-method="addToWishList">addToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_AddAffiliate" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_AddAffiliate" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AddToCart" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AddToCart" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_LaunchApplication" class="method navigator-link" hash-for-method="testLaunchApplication">testLaunchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_LaunchApplication" class="method navigator-link" hash-for-method="testLaunchApplication">testLaunchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_LaunchApplication" class="method navigator-link" hash-for-method="testLaunchApplication">testLaunchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(egobekee@gmail.com, user123)">testLogin(egobekee@gmail.com, user123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(sid@cloudberry.services, Test123)">testLogin(sid@cloudberry.services, Test123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(ezinneokorbassey5@gmail.com, user123)">testLogin(ezinneokorbassey5@gmail.com, user123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(hichamkhachiai@gmail.com, hicham123)">testLogin(hichamkhachiai@gmail.com, hicham123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(apushedwoman@gmail.com, password123)">testLogin(apushedwoman@gmail.com, password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(egobekee@gmail.com, user123)">testLogin(egobekee@gmail.com, user123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(hichamkhachiai@gmail.com, hicham123)">testLogin(hichamkhachiai@gmail.com, hicham123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(ezinneokorbassey5@gmail.com, user123)">testLogin(ezinneokorbassey5@gmail.com, user123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(sid@cloudberry.services, Test123)">testLogin(sid@cloudberry.services, Test123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(apushedwoman@gmail.com, password123)">testLogin(apushedwoman@gmail.com, password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(ezinneokorbassey5@gmail.com, user123)">testLogin(ezinneokorbassey5@gmail.com, user123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(hichamkhachiai@gmail.com, hicham123)">testLogin(hichamkhachiai@gmail.com, hicham123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(sid@cloudberry.services, Test123)">testLogin(sid@cloudberry.services, Test123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(egobekee@gmail.com, user123)">testLogin(egobekee@gmail.com, user123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_Login" class="method navigator-link" hash-for-method="testLogin(apushedwoman@gmail.com, password123)">testLogin(apushedwoman@gmail.com, password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC_04_CompletePurchase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC_04_CompletePurchase.checkOut(TC_04_CompletePurchase.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC_04_CompletePurchase.checkOut(TC_04_CompletePurchase.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC_04_CompletePurchase.checkOut(TC_04_CompletePurchase.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC006_AddAffiliate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected exception.
+	at testCases.TC006_AddAffiliate.login(TC006_AddAffiliate.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC03_AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC05__AddToWishList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishList">
+                  </a> <!-- addToWishList -->
+                  <span class="method-name">addToWishList</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected exception.
+	at testCases.TC05__AddToWishList.addToWishList(TC05__AddToWishList.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.TC_04_CompletePurchase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC_04_CompletePurchase.checkOut(TC_04_CompletePurchase.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC_04_CompletePurchase.checkOut(TC_04_CompletePurchase.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC_04_CompletePurchase.checkOut(TC_04_CompletePurchase.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC_04_CompletePurchase.checkOut(TC_04_CompletePurchase.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC_04_CompletePurchase.checkOut(TC_04_CompletePurchase.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC_04_CompletePurchase.checkOut(TC_04_CompletePurchase.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.TC006_AddAffiliate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected exception.
+	at testCases.TC006_AddAffiliate.login(TC006_AddAffiliate.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected exception.
+	at testCases.TC006_AddAffiliate.login(TC006_AddAffiliate.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.TC05__AddToWishList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishList">
+                  </a> <!-- addToWishList -->
+                  <span class="method-name">addToWishList</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected exception.
+	at testCases.TC05__AddToWishList.addToWishList(TC05__AddToWishList.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishList">
+                  </a> <!-- addToWishList -->
+                  <span class="method-name">addToWishList</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected exception.
+	at testCases.TC05__AddToWishList.addToWishList(TC05__AddToWishList.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.TC03_AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected error.
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC006_AddAffiliate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC01_LaunchApplication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLaunchApplication">
+                  </a> <!-- testLaunchApplication -->
+                  <span class="method-name">testLaunchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLaunchApplication">
+                  </a> <!-- testLaunchApplication -->
+                  <span class="method-name">testLaunchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLaunchApplication">
+                  </a> <!-- testLaunchApplication -->
+                  <span class="method-name">testLaunchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC03_AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC05__AddToWishList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishList">
+                  </a> <!-- addToWishList -->
+                  <span class="method-name">addToWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishList">
+                  </a> <!-- addToWishList -->
+                  <span class="method-name">addToWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC02_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(egobekee@gmail.com, user123)">
+                  </a> <!-- testLogin(egobekee@gmail.com, user123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(egobekee@gmail.com,user123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(sid@cloudberry.services, Test123)">
+                  </a> <!-- testLogin(sid@cloudberry.services, Test123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(sid@cloudberry.services,Test123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(ezinneokorbassey5@gmail.com, user123)">
+                  </a> <!-- testLogin(ezinneokorbassey5@gmail.com, user123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(ezinneokorbassey5@gmail.com,user123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(hichamkhachiai@gmail.com, hicham123)">
+                  </a> <!-- testLogin(hichamkhachiai@gmail.com, hicham123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(hichamkhachiai@gmail.com,hicham123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(apushedwoman@gmail.com, password123)">
+                  </a> <!-- testLogin(apushedwoman@gmail.com, password123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(apushedwoman@gmail.com,password123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(egobekee@gmail.com, user123)">
+                  </a> <!-- testLogin(egobekee@gmail.com, user123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(egobekee@gmail.com,user123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(hichamkhachiai@gmail.com, hicham123)">
+                  </a> <!-- testLogin(hichamkhachiai@gmail.com, hicham123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(hichamkhachiai@gmail.com,hicham123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(ezinneokorbassey5@gmail.com, user123)">
+                  </a> <!-- testLogin(ezinneokorbassey5@gmail.com, user123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(ezinneokorbassey5@gmail.com,user123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(sid@cloudberry.services, Test123)">
+                  </a> <!-- testLogin(sid@cloudberry.services, Test123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(sid@cloudberry.services,Test123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(apushedwoman@gmail.com, password123)">
+                  </a> <!-- testLogin(apushedwoman@gmail.com, password123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(apushedwoman@gmail.com,password123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(ezinneokorbassey5@gmail.com, user123)">
+                  </a> <!-- testLogin(ezinneokorbassey5@gmail.com, user123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(ezinneokorbassey5@gmail.com,user123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(hichamkhachiai@gmail.com, hicham123)">
+                  </a> <!-- testLogin(hichamkhachiai@gmail.com, hicham123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(hichamkhachiai@gmail.com,hicham123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(sid@cloudberry.services, Test123)">
+                  </a> <!-- testLogin(sid@cloudberry.services, Test123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(sid@cloudberry.services,Test123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(egobekee@gmail.com, user123)">
+                  </a> <!-- testLogin(egobekee@gmail.com, user123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(egobekee@gmail.com,user123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(apushedwoman@gmail.com, password123)">
+                  </a> <!-- testLogin(apushedwoman@gmail.com, password123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(apushedwoman@gmail.com,password123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Workspace_CloudBerryBootcamp\NinjaV5\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;regression&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;regression&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;chromeTest&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC006_AddAffiliate&quot;/&gt;
+      &lt;class name=&quot;testCases.TC01_LaunchApplication&quot;/&gt;
+      &lt;class name=&quot;testCases.TC03_AddToCart&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_04_CompletePurchase&quot;/&gt;
+      &lt;class name=&quot;testCases.TC02_Login&quot;/&gt;
+      &lt;class name=&quot;testCases.TC05__AddToWishList&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chromeTest --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;firefoxTest&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC006_AddAffiliate&quot;/&gt;
+      &lt;class name=&quot;testCases.TC01_LaunchApplication&quot;/&gt;
+      &lt;class name=&quot;testCases.TC03_AddToCart&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_04_CompletePurchase&quot;/&gt;
+      &lt;class name=&quot;testCases.TC02_Login&quot;/&gt;
+      &lt;class name=&quot;testCases.TC05__AddToWishList&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- firefoxTest --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;edgeTest&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC006_AddAffiliate&quot;/&gt;
+      &lt;class name=&quot;testCases.TC01_LaunchApplication&quot;/&gt;
+      &lt;class name=&quot;testCases.TC03_AddToCart&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_04_CompletePurchase&quot;/&gt;
+      &lt;class name=&quot;testCases.TC02_Login&quot;/&gt;
+      &lt;class name=&quot;testCases.TC05__AddToWishList&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- edgeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chromeTest (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">firefoxTest (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">edgeTest (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">datadriven</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addToWishList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkOut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLaunchApplication</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkOut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLaunchApplication</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkOut')
+data.setCell(0, 2, 'testCases.TC_04_CompletePurchase')
+data.setCell(0, 3, 71361);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkOut')
+data.setCell(1, 2, 'testCases.TC_04_CompletePurchase')
+data.setCell(1, 3, 71144);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkOut')
+data.setCell(2, 2, 'testCases.TC_04_CompletePurchase')
+data.setCell(2, 3, 70673);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkOut')
+data.setCell(3, 2, 'testCases.TC_04_CompletePurchase')
+data.setCell(3, 3, 70642);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkOut')
+data.setCell(4, 2, 'testCases.TC_04_CompletePurchase')
+data.setCell(4, 3, 13000);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'login')
+data.setCell(5, 2, 'testCases.TC006_AddAffiliate')
+data.setCell(5, 3, 12669);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkOut')
+data.setCell(6, 2, 'testCases.TC_04_CompletePurchase')
+data.setCell(6, 3, 10670);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'login')
+data.setCell(7, 2, 'testCases.TC006_AddAffiliate')
+data.setCell(7, 3, 10400);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addToWishList')
+data.setCell(8, 2, 'testCases.TC05__AddToWishList')
+data.setCell(8, 3, 7739);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addToWishList')
+data.setCell(9, 2, 'testCases.TC05__AddToWishList')
+data.setCell(9, 3, 6938);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAddToCart')
+data.setCell(10, 2, 'testCases.TC03_AddToCart')
+data.setCell(10, 3, 5914);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAddToCart')
+data.setCell(11, 2, 'testCases.TC03_AddToCart')
+data.setCell(11, 3, 5419);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLogin')
+data.setCell(12, 2, 'testCases.TC02_Login')
+data.setCell(12, 3, 3994);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLogin')
+data.setCell(13, 2, 'testCases.TC02_Login')
+data.setCell(13, 3, 3987);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLogin')
+data.setCell(14, 2, 'testCases.TC02_Login')
+data.setCell(14, 3, 3888);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testLogin')
+data.setCell(15, 2, 'testCases.TC02_Login')
+data.setCell(15, 3, 3162);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testLogin')
+data.setCell(16, 2, 'testCases.TC02_Login')
+data.setCell(16, 3, 3084);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testLogin')
+data.setCell(17, 2, 'testCases.TC02_Login')
+data.setCell(17, 3, 2906);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testLogin')
+data.setCell(18, 2, 'testCases.TC02_Login')
+data.setCell(18, 3, 2870);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testLogin')
+data.setCell(19, 2, 'testCases.TC02_Login')
+data.setCell(19, 3, 2841);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testLogin')
+data.setCell(20, 2, 'testCases.TC02_Login')
+data.setCell(20, 3, 2824);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'login')
+data.setCell(21, 2, 'testCases.TC006_AddAffiliate')
+data.setCell(21, 3, 2771);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testLogin')
+data.setCell(22, 2, 'testCases.TC02_Login')
+data.setCell(22, 3, 2601);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testLogin')
+data.setCell(23, 2, 'testCases.TC02_Login')
+data.setCell(23, 3, 2429);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testLogin')
+data.setCell(24, 2, 'testCases.TC02_Login')
+data.setCell(24, 3, 2184);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testLogin')
+data.setCell(25, 2, 'testCases.TC02_Login')
+data.setCell(25, 3, 2150);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testLogin')
+data.setCell(26, 2, 'testCases.TC02_Login')
+data.setCell(26, 3, 2124);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testLaunchApplication')
+data.setCell(27, 2, 'testCases.TC01_LaunchApplication')
+data.setCell(27, 3, 2037);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testLogin')
+data.setCell(28, 2, 'testCases.TC02_Login')
+data.setCell(28, 3, 1781);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testAddToCart')
+data.setCell(29, 2, 'testCases.TC03_AddToCart')
+data.setCell(29, 3, 1435);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'checkOut')
+data.setCell(30, 2, 'testCases.TC_04_CompletePurchase')
+data.setCell(30, 3, 1186);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testAddToCart')
+data.setCell(31, 2, 'testCases.TC03_AddToCart')
+data.setCell(31, 3, 1112);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'addToWishList')
+data.setCell(32, 2, 'testCases.TC05__AddToWishList')
+data.setCell(32, 3, 891);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'checkOut')
+data.setCell(33, 2, 'testCases.TC_04_CompletePurchase')
+data.setCell(33, 3, 767);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'addToWishList')
+data.setCell(34, 2, 'testCases.TC05__AddToWishList')
+data.setCell(34, 3, 734);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'checkOut')
+data.setCell(35, 2, 'testCases.TC_04_CompletePurchase')
+data.setCell(35, 3, 346);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'addToWishList')
+data.setCell(36, 2, 'testCases.TC05__AddToWishList')
+data.setCell(36, 3, 319);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'login')
+data.setCell(37, 2, 'testCases.TC006_AddAffiliate')
+data.setCell(37, 3, 84);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testAddToCart')
+data.setCell(38, 2, 'testCases.TC03_AddToCart')
+data.setCell(38, 3, 79);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'login')
+data.setCell(39, 2, 'testCases.TC006_AddAffiliate')
+data.setCell(39, 3, 76);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testLaunchApplication')
+data.setCell(40, 2, 'testCases.TC01_LaunchApplication')
+data.setCell(40, 3, 38);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testLaunchApplication')
+data.setCell(41, 2, 'testCases.TC01_LaunchApplication')
+data.setCell(41, 3, 25);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC006_AddAffiliate</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, edge)</span>
+                <span class="method-start">283 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, firefox)</span>
+                <span class="method-start">286 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">10796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">13038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">23404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">23490 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">23490 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC01_LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, chrome)</span>
+                <span class="method-start">24376 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, edge)</span>
+                <span class="method-start">25801 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC006_AddAffiliate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">26203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login</span>
+                <span class="method-start">26294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">26707 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC01_LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLaunchApplication</span>
+                <span class="method-start">28093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">30146 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, firefox)</span>
+                <span class="method-start">31569 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC03_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, chrome)</span>
+                <span class="method-start">31764 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC01_LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLaunchApplication</span>
+                <span class="method-start">32113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">32140 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC03_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, edge)</span>
+                <span class="method-start">34536 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">36460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">40970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">41885 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_04_CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, chrome)</span>
+                <span class="method-start">42809 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC01_LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLaunchApplication</span>
+                <span class="method-start">46511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">46553 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC03_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">46898 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_04_CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOut</span>
+                <span class="method-start">48321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, edge)</span>
+                <span class="method-start">48896 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC03_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, firefox)</span>
+                <span class="method-start">49663 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_04_CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOut</span>
+                <span class="method-start">53998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOut</span>
+                <span class="method-start">58997 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC03_AddToCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">62600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">64039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">65162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">65601 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_04_CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOut</span>
+                <span class="method-start">67003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, firefox)</span>
+                <span class="method-start">68063 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkOut</span>
+                <span class="method-start">75784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOut</span>
+                <span class="method-start">76973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOut</span>
+                <span class="method-start">77744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">78330 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC02_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, firefox)</span>
+                <span class="method-start">79915 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(ezinneokorbassey5@gmail.com, user123)</span>
+                <span class="method-start">87483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(egobekee@gmail.com, user123)</span>
+                <span class="method-start">89917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(sid@cloudberry.services, Test123)</span>
+                <span class="method-start">92102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(apushedwoman@gmail.com, password123)</span>
+                <span class="method-start">94228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(hichamkhachiai@gmail.com, hicham123)</span>
+                <span class="method-start">96380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">98163 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC05__AddToWishList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, firefox)</span>
+                <span class="method-start">99455 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addToWishList</span>
+                <span class="method-start">105285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addToWishList</span>
+                <span class="method-start">106179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addToWishList</span>
+                <span class="method-start">106914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">107473 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_04_CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOut</span>
+                <span class="method-start">130361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOut</span>
+                <span class="method-start">138148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">201229 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC02_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, chrome)</span>
+                <span class="method-start">201739 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(ezinneokorbassey5@gmail.com, user123)</span>
+                <span class="method-start">204414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(egobekee@gmail.com, user123)</span>
+                <span class="method-start">207323 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_04_CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">208990 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC02_Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogin(sid@cloudberry.services, Test123)</span>
+                <span class="method-start">209929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, edge)</span>
+                <span class="method-start">210466 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(apushedwoman@gmail.com, password123)</span>
+                <span class="method-start">213926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(ezinneokorbassey5@gmail.com, user123)</span>
+                <span class="method-start">214770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(hichamkhachiai@gmail.com, hicham123)</span>
+                <span class="method-start">217917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(egobekee@gmail.com, user123)</span>
+                <span class="method-start">218661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">220747 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC05__AddToWishList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, chrome)</span>
+                <span class="method-start">221347 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC02_Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogin(sid@cloudberry.services, Test123)</span>
+                <span class="method-start">221747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(apushedwoman@gmail.com, password123)</span>
+                <span class="method-start">224594 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC05__AddToWishList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addToWishList</span>
+                <span class="method-start">225220 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC02_Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogin(hichamkhachiai@gmail.com, hicham123)</span>
+                <span class="method-start">227759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">230631 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC05__AddToWishList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openApp(windows, edge)</span>
+                <span class="method-start">232016 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">232961 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">addToWishList</span>
+                <span class="method-start">235565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">242505 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
